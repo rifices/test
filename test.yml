@@ -1,4 +1,4 @@
-- hosts: test-server
+- hosts: 104.199.143.161
   tasks:
     - name: install httpd
       yum: name=httpd disable_gpg_check=no state=installed
