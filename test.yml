@@ -1,0 +1,4 @@
+- hosts: test-server
+  tasks:
+    - name: install httpd
+      yum: name=httpd disable_gpg_check=no state=installed
